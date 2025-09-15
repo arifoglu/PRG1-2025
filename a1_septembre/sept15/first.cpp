@@ -1,10 +1,3 @@
-/*
-Labo : 01
-Nom(s) :Arifoglu Abdulkadir
-Date : 15.09.2025
-But : me présenter via un programme cpp.
-Remarque(s) :
-*/
 #include <iostream>
 #include <cstdlib>
 
