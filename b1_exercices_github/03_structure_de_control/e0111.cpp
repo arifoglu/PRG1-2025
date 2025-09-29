@@ -14,12 +14,12 @@ int main() {
    double delta = (b * b) - (4 * a * c);
    double delta_racine = sqrt(delta);
    
-   if(delta_racine >= 0 )
+   if(delta >= 0 )
    {
-      double x1 = (-b + delta_racine) / 2;
-      double x2 = (-b - delta_racine) / 2;
+      double x1 = (-b + delta_racine) / (2 * a);
+      double x2 = (-b - delta_racine) / (2 * a);
    }
-   else if(delta_racine < 0)
+   else if(delta < 0)
    {
       cout << "non reel solution" << endl;
    }
