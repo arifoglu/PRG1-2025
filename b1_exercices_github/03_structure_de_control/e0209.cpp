@@ -26,7 +26,7 @@ int main() {
 
     
     for(int i = 0; i < nb_rebonds ;++i){
-        v0 = sqrt(2 * g * h0);
+        v0 = sqrt(2  * g * h0);
         v1 = coeff * v0;
         hauteur = (v1 * v1) / (2 * g); 
         h0 = hauteur;
